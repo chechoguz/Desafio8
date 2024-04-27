@@ -3,7 +3,8 @@
     --azul-marino:#003366;
     --dark-jungle: #1B1F21;
     --outer-space: #444749;
-    --old-silver: #c7c7c7;
+    --plomo-claro: #9b9b9b;
+    --old-silver: #dbdbdb;
     }
 
 * {
@@ -22,10 +23,12 @@ header{
 menu{
     grid-area: menu;
     background-color: var(--old-silver);
+    padding: 15px 0 0 30px;
     }
 main{
     grid-area: main;
     background-color: var(--old-silver);
+    padding: 15px;
     }
 footer{
     grid-area: footer;
@@ -57,4 +60,20 @@ footer{
     font-weight: bold; 
 
 }
-
+.categories-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-jungle);
+}
+.category-list {
+    list-style: none;
+    padding-left: 0;
+}
+.category-item {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.category-count {
+    font-weight: bold;
+    color: var(--plomo-claro);
+}
