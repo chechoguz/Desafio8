@@ -1,0 +1,28 @@
+:root {
+    --white: #FFF;
+    --azul-marino:#003366;
+    --dark-jungle: #1B1F21;
+    --outer-space: #444749;
+    --old-silver: #828485;
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: var(--azul-marino);
+    color: var(--white);
+    text-align: center; 
+    width: 100%; 
+    padding: 20px 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+
+}
